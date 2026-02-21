@@ -18,3 +18,7 @@ Config file location: **config/simplyswords_main/haste_tweaks.json**
 ### Building
 
 Clone the repository, place the required Simply Swords dependencies in **/libs** and run **./gradlew build**. The compiled .jar will be located in the **build/libs/** folder.
+
+### Credits
+
+- Based on [ImEden6's](https://github.com/ImEden6) idea for the [Haste Tweaks](https://github.com/ImEden6/simplyswords-haste-tweaks) mod
