@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "simply-swords-haste-tweaks",
+	"version": "${version}",
+	"name": "Simply Swords Haste Tweaks",
+	"description": "",
+	"authors": [
+		"Stalemated"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/simply-swords-haste-tweaks/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.stalemated.SimplySwordsHasteTweaks"
+		]
+	},
+	"mixins": [
+		"simply-swords-haste-tweaks.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.3",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
