@@ -1,4 +1,4 @@
-## Simply Swords Haste Tweaks
+## Simply Swords Battle Standard Tweaks
 
 A Fabric add-on for Simply Swords (1.20.1) that allows you to configure the hardcoded values of the Battle Standards (Abyssal Standard & Galeforce).
 
@@ -8,7 +8,7 @@ A Fabric add-on for Simply Swords (1.20.1) that allows you to configure the hard
 - Change the effective range of the standard's aura.
 - Modify Galeforce's AOE damage
 
-Config file location: **config/simplyswords_main/haste_tweaks.json**
+Config file location: **config/simplyswords_main/battle_standard_tweaks.json**
 
 ### Requirements
 
