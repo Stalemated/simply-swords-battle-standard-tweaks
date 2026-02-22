@@ -96,6 +96,7 @@ public class BattleStandardDarkEntityMixin {
 		return SimplySwordsBattleStandardConfig.abyssalStandardAOEHasteAmplifier;
 	}
 
+	// Modifies the AoE slowness amplifier for Abyssal Standard
 	@ModifyConstant(
 			method = "baseTick",
 			constant = @Constant(intValue = 0, ordinal = 0),

@@ -3,7 +3,8 @@
 	"package": "com.stalemated.simplyswordsbstweaks.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-		"BattleStandardDarkEntityMixin"
+		"BattleStandardDarkEntityMixin",
+		"HelperMethodsMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
