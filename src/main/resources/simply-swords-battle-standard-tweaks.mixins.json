@@ -4,9 +4,11 @@
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
 		"BattleStandardDarkEntityMixin",
+		"BattleStandardEntityMixin",
 		"ElementalVortexEffectMixin",
 		"HelperMethodsMixin",
-		"LivingEntityMixin"
+		"LivingEntityMixin",
+		"compat.RebalanceCompatMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
